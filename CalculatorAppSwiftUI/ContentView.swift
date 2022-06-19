@@ -138,6 +138,7 @@ struct ContentView: View {
             }
         case .clear:
             self.value = "0"
+            self.runningNumber = 0
         case .decimal, .negative, .percent:
             break
         default:
